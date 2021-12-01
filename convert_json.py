@@ -17,4 +17,5 @@ except FileExistsError:
 with open('json_files/data.json', 'w+') as json_data:
     json.dump(data_list, json_data)
 print('Json file has been created')
+print('Congratulation')
 
